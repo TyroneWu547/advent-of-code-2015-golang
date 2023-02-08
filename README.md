@@ -1,2 +1,5 @@
-# advent-of-code-2015-go
-Advent of Code 2022 Go solutions while learning Go.
+<img src="./.assets/christmas_gopher.png" width="170">
+
+# 🎄 Advent of Code 2015
+
+Solutions for [Advent of Code 2015](https://adventofcode.com/2015) in [Go](https://go.dev/). 
