@@ -1,0 +1,6 @@
+{
+    "name": "go-devcontainer",
+    "image": "mcr.microsoft.com/devcontainers/go:latest",
+    "postCreateCommand": "go version",
+    "remoteUser": "vscode"
+}
