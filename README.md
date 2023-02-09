@@ -1,4 +1,4 @@
-<img src="./.assets/christmas_gopher.png" width="170">
+<img src="./.assets/christmas_gopher.png" width="300">
 
 # 🎄 Advent of Code 2015
 
