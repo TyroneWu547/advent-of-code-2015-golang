@@ -15,12 +15,13 @@ Template heavily inspired by [https://github.com/fspoettel/advent-of-code-rust](
 go run main.go <day-number> <p1|p2|both> <file-path-input>
 
 // output:
-//     Running `target/debug/01`
-// 🎄 Part 1 🎄
+// ----------
+// | Day 01 |
+// ----------
 //
+// 🎄 Part 1 🎄
 // 6 (elapsed: 37.03µs)
 //
 // 🎄 Part 2 🎄
-//
 // 9 (elapsed: 33.18µs)
 ```
