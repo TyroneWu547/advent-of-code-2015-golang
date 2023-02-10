@@ -3,6 +3,7 @@ package main
 import (
 	_ "aoc/days/day01"
 	_ "aoc/days/day02"
+	_ "aoc/days/day03"
 	utils "aoc/utils"
 	"fmt"
 	"os"
