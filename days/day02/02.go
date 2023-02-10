@@ -65,7 +65,7 @@ func partTwo(input string) string {
 
 func init() {
 	var day utils.Day = utils.Day{
-		DayNum:  1,
+		DayNum:  2,
 		PartOne: partOne,
 		PartTwo: partTwo,
 	}
