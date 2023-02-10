@@ -36,7 +36,7 @@ func main() {
 	}
 
 	var dayFmt string = fmt.Sprintf("Day %02d", dayNum)
-	var day days.Day = days.AOCDays[dayFmt]
+	var day *days.Day = days.AOCDays[dayFmt]
 
 	fmt.Printf("----------\n"+
 		"| %s |\n"+

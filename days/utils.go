@@ -9,9 +9,9 @@ type Day struct {
 }
 
 // Holds the functions for each aoc day
-var AOCDays map[string]Day = map[string]Day{}
+var AOCDays map[string]*Day = make(map[string]*Day, 25)
 
 // Adds the day to the map
-func RegisterDay(dayFmt string, day Day) {
+func RegisterDay(dayFmt string, day *Day) {
 	AOCDays[dayFmt] = day
 }
