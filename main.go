@@ -1,7 +1,9 @@
 package main
 
 import (
-	days "aoc/days"
+	_ "aoc/days/day01"
+	_ "aoc/days/day02"
+	utils "aoc/utils"
 	"fmt"
 	"os"
 	"strconv"
@@ -36,7 +38,7 @@ func main() {
 	}
 
 	var dayFmt string = fmt.Sprintf("Day %02d", dayNum)
-	var day *days.Day = days.AOCDays[dayFmt]
+	var day *utils.Day = utils.AOCDays[dayFmt]
 
 	fmt.Printf("----------\n"+
 		"| %s |\n"+
@@ -54,7 +56,7 @@ func main() {
 }
 
 // Benchmark function
-func benchmarkTask(task days.Task, input string) {
+func benchmarkTask(task utils.Task, input string) {
 	var start time.Time = time.Now()
 	var output string = task(string(input))
 	var duration time.Duration = time.Since(start)

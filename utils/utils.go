@@ -1,4 +1,4 @@
-package days
+package utils
 
 type Task func(string) string
 
