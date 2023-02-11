@@ -6,6 +6,7 @@ import (
 	_ "aoc/days/day03"
 	_ "aoc/days/day04"
 	_ "aoc/days/day05"
+	_ "aoc/days/day06"
 	utils "aoc/utils"
 	"fmt"
 	"os"
