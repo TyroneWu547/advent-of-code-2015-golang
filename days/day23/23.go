@@ -66,10 +66,6 @@ func parseInput(input string) []operation {
 	return ops
 }
 
-func isFloatEven() {
-
-}
-
 func executeInstruction(op *operation, instrIdx *int, a *float64, b *float64) {
 	switch op.instr {
 	case hlf:
