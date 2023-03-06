@@ -24,6 +24,7 @@ import (
 	_ "aoc/days/day21"
 	_ "aoc/days/day22"
 	_ "aoc/days/day23"
+	_ "aoc/days/day24"
 	utils "aoc/utils"
 	"fmt"
 	"os"
