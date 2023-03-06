@@ -6,6 +6,10 @@ Solutions for [Advent of Code 2015](https://adventofcode.com/2015) in [Go](https
 
 Template heavily inspired by [https://github.com/fspoettel/advent-of-code-rust](https://github.com/fspoettel/advent-of-code-rust). 
 
+<p align="center">
+<img src="./docs/yaay.png">
+</p>
+
 --- 
 
 ## Environment Setup 💻 
